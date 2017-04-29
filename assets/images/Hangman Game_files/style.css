@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
+header {
+  background-image: url(../images/america.gif);
+  background-size: 100% auto;
+  top: 0;
+  height: 100px;
+  text-align: center;
+  width: 100%;
+  margin: 0px auto;
+  border-bottom: 5px solid #6B5637;
+}
+h1 {
+  padding-top: 25px;
+  font-family: 'Abril Fatface', cursive;
+  color: #D8CBA5;
+  text-shadow:
+      -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+  font-size: 48px;
+  letter-spacing: 2.5;
+}
+body {
+  background-image: url(../images/ep_naturalwhite.png);
+}
+/* Establishes box for game to sit in */
+.container {
+  margin: 20px auto;
+  width: 65%;
+  padding: 45px;
+  text-align: center;
+  border: 5px solid #6C0C17;
+  background-color: #D8CBA5;
+}
+h2 {
+  font-family: "Arial", sans-serif;
+  color: #FFFFFF;
+  text-shadow:
+      -1px -1px 0 #000,  
+        1px -1px 0 #000,
+        -1px 1px 0 #000,
+        1px 1px 0 #000;
+  font-size: 24px;
+  line-height: 1.5;
+}
+h3 {
+  font-family: "Arial", sans-serif;
+  color: #7E1020;
+  font-size: 18px;
+  line-height: 1.5;
+}
+h4 {
+  font-family: "Arial", sans-serif;
+  color: #23558A;
+  text-shadow:
+      -1px -1px 0 #6C0C17,  
+        1px -1px 0 #6C0C17,
+        -1px 1px 0 #6C0C17,
+        1px 1px 0 #6C0C17;
+  font-size: 26px;
+  line-height: 1.5;
+  font-weight: bold;
+}
+p {
+  font-weight: bold;
+  color: #23558A;
+  text-transform: uppercase;
+}
+/* Establish game image parameters */
+img {
+  width: 300px;
+  height: 300px;
+  border: 5px solid #13334B;
+}
+#blanks {
+  letter-spacing: .25em;
+}
